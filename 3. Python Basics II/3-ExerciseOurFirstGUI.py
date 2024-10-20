@@ -12,8 +12,8 @@ picture = [
 
 
 #Answer:
-for image in picture:
-  for pixel in image:
+for row in picture:
+  for pixel in row:
     if (pixel):
       print('*', end ="")
     else:
